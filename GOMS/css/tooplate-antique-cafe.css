@@ -164,3 +164,29 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
         margin-bottom: 10px;
     }
 }
+
+
+
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  footer{
+    background-color: #CC9966;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  .navbar-brand{
+    color: white;
+  }
+
+  .dropdown-item{
+    color: white;
+  }
