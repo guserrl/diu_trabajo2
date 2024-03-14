@@ -190,3 +190,44 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
   .dropdown-item{
     color: white;
   }
+
+/* Agrega esta sección al final de tu archivo CSS o en un archivo separado */
+
+/* Clase para el contenedor del nav */
+.container-nav {
+    display: grid;
+    grid-template-columns: 1fr; /* Una única columna que ocupa todo el espacio disponible */
+  }
+  
+  /* Estilo para el nav */
+  .navbar {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Tamaño de la fuente del logo */
+    color: #333; /* Color del texto del logo */
+  }
+  
+  .navbar-nav {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #333; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    padding: 10px 15px; /* Espaciado interno de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón por encima */
+  }
+  
